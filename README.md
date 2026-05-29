@@ -6,9 +6,9 @@
 
 # 이태형 | Backend Developer
 
-데이터 흐름을 이해하고, 문제를 구조적으로 분석하며 개선하는 백엔드 개발자를 목표로 하고 있습니다.
+데이터 흐름을 이해하고, 문제를 구조적으로 분석하며 개선하는 백엔드 개발자를 지향합니다.
 
-Java와 Spring Boot 기반의 REST API 개발을 중심으로 학습하고 있으며, React 웹 프론트엔드, Flutter 앱, Python 기반 객체 인식 모듈까지 연동되는 졸업작품 프로젝트를 진행하고 있습니다.
+Java와 Spring Boot 기반 REST API 개발을 중심으로, React 웹 프론트엔드, Flutter 앱, Python 기반 객체 인식 모듈이 연동되는 졸업작품 프로젝트를 구현하고 있습니다.
 
 <p>
   <a href="mailto:xm3003@naver.com">
@@ -191,7 +191,7 @@ Python YOLO / OCR Parking Detection Module
   - OPAMP 기반 필터 회로 설계
   - PSpice 시뮬레이션 및 측정 데이터 분석
 
-## Currently Learning
+## Focus Areas
 
 - Spring Boot 기반 REST API 설계
 - JPA 기반 데이터 모델링
