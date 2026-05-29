@@ -1,8 +1,23 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:2563EB&height=180&section=header&text=Lee%20Tae%20Hyung&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Backend%20Developer&descSize=18&descAlignY=55)
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=lth0330&label=Profile%20Views&color=2563eb&style=flat-square" alt="profile views" />
+</p>
+
 # 이태형 | Backend Developer
 
 데이터 흐름을 이해하고, 문제를 구조적으로 분석하며 개선하는 백엔드 개발자를 목표로 하고 있습니다.
 
 Java와 Spring Boot 기반의 REST API 개발을 중심으로 학습하고 있으며, React 웹 프론트엔드, Flutter 앱, Python 기반 객체 인식 모듈까지 연동되는 졸업작품 프로젝트를 진행하고 있습니다.
+
+<p>
+  <a href="mailto:xm3003@naver.com">
+    <img src="https://img.shields.io/badge/Email-xm3003%40naver.com-03C75A?style=flat-square&logo=naver&logoColor=white" alt="email" />
+  </a>
+  <a href="https://github.com/lth0330">
+    <img src="https://img.shields.io/badge/GitHub-lth0330-181717?style=flat-square&logo=github&logoColor=white" alt="github" />
+  </a>
+</p>
 
 ## About Me
 
@@ -13,6 +28,25 @@ Java와 Spring Boot 기반의 REST API 개발을 중심으로 학습하고 있�
 - AWS EC2, RDS, S3 기반 배포 및 데이터베이스 연동 경험
 
 ## Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Java%2017-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security" />
+  <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="JPA" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+</p>
 
 ### Backend
 
@@ -165,7 +199,20 @@ Python YOLO / OCR Parking Detection Module
 - AWS 기반 서비스 배포
 - Python AI 모듈과 백엔드 API 연동
 
+## GitHub Stats
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=lth0330&show_icons=true&theme=default&hide_border=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lth0330&layout=compact&theme=default&hide_border=true" alt="Top languages" />
+</p>
+
 ## Contact
 
-- Email: xm3003@naver.com
-- GitHub: https://github.com/lth0330
+<p>
+  <a href="mailto:xm3003@naver.com">
+    <img src="https://img.shields.io/badge/Email-xm3003%40naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white" alt="email" />
+  </a>
+  <a href="https://github.com/lth0330">
+    <img src="https://img.shields.io/badge/GitHub-lth0330-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" />
+  </a>
+</p>
