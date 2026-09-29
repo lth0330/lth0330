@@ -34,7 +34,7 @@ Spring Boot REST API를 중심으로 React 관리자 웹, Flutter 앱, Python �
 
 <img src="https://skillicons.dev/icons?i=python,fastapi,opencv,aws,git,github&theme=dark" alt="Python, FastAPI, OpenCV, AWS, Git, GitHub" />
 
-<sub>Spring Security · JWT · Axios · React Router · FCM · YOLO · EasyOCR · Docker · AWS EC2 / RDS / S3 / Elastic Beanstalk · Jira</sub>
+<sub>Spring Security · JWT · Axios · React Router · FCM · YOLO · EasyOCR · Redis · AWS EC2 / RDS / S3 / Elastic Beanstalk / CloudFront · Jira</sub>
 
 </div>
 
@@ -47,11 +47,13 @@ Spring Boot REST API를 중심으로 React 관리자 웹, Flutter 앱, Python �
 <td width="50%" valign="top">
 
 ### 🅿️ Park-On
-**아파트 주차 관리 시스템** · 졸업작품 (진행 중)
+**아파트 주차 관리 시스템** · 졸업작품 · 2025.09 ~ 진행 중
 
 웹 관리자, 아파트 관리자, 입주민 앱, 카메라 기반 객체 인식 모듈이 함께 동작하는 주차 관리 시스템. 카메라 인식 결과를 백엔드로 전달해 주차 상태를 실시간으로 갱신합니다.
 
 **My Role** — Spring Boot 공통 백엔드, JWT 인증·권한 분리, 주민·차량·주차장 API, React 관리자 웹 연동
+
+**문제 해결** — 번호판 인식이 입차 이벤트보다 늦게 도착해 차량번호가 `UNKNOWN`으로 남던 문제를, 입차 처리와 번호판 갱신을 분리해 해결
 
 `Java 17` `Spring Boot` `Spring Security` `JPA` `JWT` `MySQL` `AWS RDS` `React` `Vite` `Flutter` `FCM` `FastAPI` `YOLO` `EasyOCR`
 
@@ -62,7 +64,7 @@ Spring Boot REST API를 중심으로 React 관리자 웹, Flutter 앱, Python �
 <td width="50%" valign="top">
 
 ### 🌳 GROOT
-**기업 ESG 탄소중립 수목 관리 플랫폼** · 팀 프로젝트 (4인)
+**기업 ESG 탄소중립 수목 관리 플랫폼** · 4인 팀 · 2026.03 ~ 2026.04
 
 기후·토양 데이터로 최적 수종을 추천하고, 산림과학원 공인 계수로 탄소흡수량을 계산해 친환경 인증마크를 발급하는 서비스.
 
@@ -81,13 +83,13 @@ Spring Boot REST API를 중심으로 React 관리자 웹, Flutter 앱, Python �
 <td width="50%" valign="top">
 
 ### 📍 여기남김
-**위치 기반 기록 서비스** · 팀 프로젝트 (3인)
+**위치 기반 기록 서비스** · 3인 팀 · 2026.05 ~ 2026.06
 
 카카오맵으로 주변 장소를 찾고, 장소별 보드에 포스트잇·이미지·텍스트로 기억을 남기는 서비스. 커스텀 보드와 초대 링크로 모임 단위 기록도 지원합니다.
 
-**My Role** — AWS 배포 인프라 (Docker · Elastic Beanstalk · CloudFront · S3), 팔로우·알림·신고·추천 기능, UI 구성 및 사용자 흐름
+**My Role** — Spring Boot 백엔드 API, AWS 배포 (Elastic Beanstalk · CloudFront · S3 · RDS), 팔로우·알림·신고·추천 기능
 
-`Java` `Spring Boot` `JPA` `JWT` `MySQL` `Redis` `React` `Vite` `Kakao Map API` `Docker` `AWS Elastic Beanstalk` `CloudFront` `S3`
+`Java` `Spring Boot 4` `JPA` `JWT` `MySQL` `Redis` `React 19` `Vite` `Kakao Map API` `AWS Elastic Beanstalk` `CloudFront` `S3` `Aurora/RDS`
 
 [![Backend](https://img.shields.io/badge/Backend-Repo-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://github.com/lth0330/Yeoginamgim-Back)
 [![Frontend](https://img.shields.io/badge/Frontend-Repo-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/lth0330/Yeoginamgim-Front)
@@ -96,7 +98,7 @@ Spring Boot REST API를 중심으로 React 관리자 웹, Flutter 앱, Python �
 <td width="50%" valign="top">
 
 ### 💑 데이트 코스 추천 앱
-**상황 맞춤 데이트 코스 추천 서비스** · 개인 프로젝트 (개발 중)
+**상황 맞춤 데이트 코스 추천 서비스** · 개인 프로젝트 · 2026.09 ~ 진행 중
 
 날짜·시간·예산·날씨·취향을 입력하면 조건에 맞는 장소를 최소 3곳 골라 시간대 순서대로 코스를 짜 주고, 저장하고 링크로 공유할 수 있는 서비스.
 
@@ -128,6 +130,8 @@ React Admin Web ──REST──▶ Spring Boot Backend ──── MySQL / AWS
                Python YOLO / OCR Parking Detection Module
 ```
 
+**하드웨어** — 축소 주차장 모형, 번호판 인식 카메라, 초음파 센서, 서보모터(차단기), 아두이노, 라즈베리파이
+
 **주요 기능**
 - JWT 기반 로그인과 권한 분리 (웹 관리자 / 아파트 관리자 / 입주민)
 - 아파트 관리자 가입 승인·거절, 입주민 가입 요청 승인·거절
@@ -142,7 +146,16 @@ React Admin Web ──REST──▶ Spring Boot Backend ──── MySQL / AWS
 - 주민, 차량, 주차장, 주차구역 관리 API 구현
 - React 관리자 웹 화면과 백엔드 API 연동
 - Flutter 앱, Python 인식 모듈과 백엔드 사이의 연동 구조 설계
-- DB 테이블 구조 정리와 API 명세 관리
+- DB 테이블 구조 정리(전체 18개 테이블)와 API 명세 관리
+
+**트러블슈팅**
+| 문제 | 해결 |
+|:---|:---|
+| 입차 이벤트가 번호판 인식 결과보다 먼저 도착하면 차량번호가 `UNKNOWN`으로 남아 차주 확인·앱 알림이 끊김 | 입차 처리와 번호판 갱신을 분리 — 차량 감지 시 주차 상태·입차 이력을 먼저 만들고, 번호판이 확정되면 진행 중인 기록과 화면을 함께 갱신. 중복 입차 이벤트는 기존 주차 상태 기준으로 처리해 중복 데이터 방지 |
+| 같은 주차장에서 주차구역 행/열 좌표가 중복 저장돼 배치 화면이 겹침 | 저장 전 좌표 중복 검증, 중복 시 `409 Conflict` 응답 |
+| 방문차량 만료를 등록 시점부터 24시간으로 계산해 실제 입차 시간과 어긋남 | 입차 인식 시점부터 만료 시간을 갱신 |
+| OCR 실패·`UNKNOWN` 결과가 실패 이력으로만 남아 운영자가 직접 추적해야 함 | 번호판 보정 대상을 목록화하고, 관리자가 확정하면 기록에 반영 |
+| 아파트 관리자가 요청의 번호만 바꾸면 다른 관리자 정보에 접근 가능 | 토큰의 사용자 번호와 대상을 비교하는 `ManagerAccessGuard` 추가, 본인이 아니면 403 |
 
 </details>
 
@@ -174,6 +187,8 @@ User ─HTTPS─▶ React Front (EC2) ─REST + JWT─▶ Spring Boot
 - 상대생장식 기반 탄소흡수량 계산 로직, 좌표 기반 위치 매핑과 지도 시각화
 - ESG 보고서 생성과 이메일 자동 전송
 - Java Stream `groupingBy`로 ESG 보고서 집계 로직을 바꿔 처리 시간 약 40~70% 단축
+- 수목 추천에서 수종별 예상 흡수량을 Map에 저장해 재사용 — 수종마다 반복되던 계산을 1회로 줄임
+- 보고서 미리보기와 PDF 출력이 같은 계산 결과(DTO)를 쓰도록 계산 흐름을 단계별로 분리
 
 **시연 영상** — [Google Drive](https://drive.google.com/file/d/1kVpLUwoW3PDe0-Ms-aDT4NnmZlo_zkBP/view?usp=drive_link)
 
@@ -185,10 +200,14 @@ User ─HTTPS─▶ React Front (EC2) ─REST + JWT─▶ Spring Boot
 <br>
 
 ```text
-React (S3 정적 호스팅 + CloudFront) ─REST─▶ Spring Boot ──── MySQL / Redis / AWS S3
-                                               │
-                                               ├─▶ FastAPI 욕설 필터 (Docker → ECR → Elastic Beanstalk)
-                                               └─▶ Kakao Local API · Kakao / Google OAuth · SMTP
+React (S3 + CloudFront) ──HTTPS──▶ CloudFront 라우팅 ──▶ Spring Boot (Elastic Beanstalk)
+                                                              │
+                                  ┌───────────────┬───────────┼──────────────┐
+                                  ▼               ▼           ▼              ▼
+                            Aurora / RDS        Redis      AWS S3     FastAPI 욕설 필터
+                                             (인증코드·     (이미지)
+                                              OAuth 상태)
+                         외부 연동 — Kakao Map / Local API · Kakao / Google OAuth · SMTP
 ```
 
 **주요 기능**
@@ -199,9 +218,13 @@ React (S3 정적 호스팅 + CloudFront) ─REST─▶ Spring Boot ──── 
 - Kakao / Google 소셜 로그인, Redis를 이용한 이메일 인증
 
 **담당 역할 상세**
-- AWS 배포 인프라 구성 — 프론트 S3 + CloudFront, Python 서버 Docker 이미지 → ECR → Elastic Beanstalk
-- 팔로우, 알림, 신고, 추천 기능 구현
+- **Spring Boot 백엔드 API** — 팔로우, 알림, 신고, 추천 기능
+- **AWS 배포** — React는 S3 + CloudFront, Spring Boot는 Elastic Beanstalk로 배포하고 CloudFront 라우팅으로 API도 HTTPS로 호출되게 구성. Aurora/RDS, Redis(이메일 인증 코드·OAuth 상태), S3 이미지 업로드 연동
 - UI 구성과 사용자 흐름 정리
+
+**핵심 로직**
+- **신고 누적 처리** — 같은 사용자의 중복 신고를 막고, 신고가 기준 수에 도달하면 흔적을 숨김(`HIDDEN_BY_REPORT`) 처리하고 작성자에게 알림. 숨김이 누적되면 작성자 활동을 일정 기간 제한
+- **커스텀 보드 공유** — 보드를 만든 사람은 OWNER로 등록, UUID 초대 코드에 만료 시간을 두고 참여자는 MEMBER 권한으로 등록한 뒤 접근 권한 검증
 
 **시연 영상** — [YouTube](https://www.youtube.com/watch?v=tKTGVVTD5zw)
 
@@ -261,11 +284,15 @@ React (S3 정적 호스팅 + CloudFront) ─REST─▶ Spring Boot ──── 
 
 | | |
 |:---|:---|
-| **학력** | 성결대학교 정보통신공학과 졸업예정 |
+| **학력** | 성결대학교 정보통신공학과 (2021.03 ~ 2027.02 졸업예정) |
+| **교육** | AI 딥러닝 중심 자바 프론트엔드·백엔드 풀스택 개발 과정 수료 · 성결대학교 (2025.12 ~ 2026.06) |
+| **자격증** | 정보처리기사 필기 합격 (2026.02) |
+| | 컴퓨터활용능력 2급 (2025.08) · MOS 365 Word · PowerPoint Associate (2025.10 · 2025.09) |
+| **수상** | 성결스터디즈 교내 프로젝트 **장려상** (2025.09 ~ 2025.12) — 센서 기반 시스템 설계, 팀 리더 |
+| | 전자회로설계 경진대회 **우수상** (2024년 2학기) — OPAMP 필터 회로 설계, PSpice 시뮬레이션 |
+| **병역** | 육군 병장 만기전역 (2022.01 ~ 2023.07) |
 | **관심 분야** | REST API 설계 · DB 모델링 · 서비스 간 연동 구조 · AWS 배포 |
-| **협업** | Git/GitHub 브랜치 협업 · Jira 이슈 관리 · Pull Request 코드 리뷰 |
-| **수상** | 성결스터디즈 교내 프로젝트 **장려상** — 센서 기반 시스템 설계, 팀 리더 |
-| | 전자회로설계 경진대회 **우수상** — OPAMP 필터 회로 설계, PSpice 시뮬레이션 |
+| **협업** | Git/GitHub 브랜치 협업 · Jira 이슈 관리 (To Do / In Progress / Done) |
 
 <br>
 
