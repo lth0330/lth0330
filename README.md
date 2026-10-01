@@ -263,28 +263,3 @@ React (S3 + CloudFront) ──HTTPS──▶ CloudFront 라우팅 ──▶ Spri
 - 장소 데이터 자동 수집 파이프라인
 
 </details>
-
-<br>
-
-## GitHub Stats
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lth0330&theme=github_dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lth0330&theme=default" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lth0330&theme=default" height="160" alt="GitHub stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lth0330&theme=github_dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lth0330&theme=default" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lth0330&theme=default" height="160" alt="Most commit language" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=lth0330&theme=github-dark-blue&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=lth0330&theme=default&hide_border=true" />
-  <img src="https://streak-stats.demolab.com?user=lth0330&theme=default&hide_border=true" height="160" alt="GitHub streak" />
-</picture>
-
-</div>
