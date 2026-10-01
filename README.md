@@ -51,11 +51,11 @@ Spring Boot REST API를 중심으로 React 관리자 웹, Flutter 앱, Python �
 
 웹 관리자, 아파트 관리자, 입주민 앱, 카메라 기반 객체 인식 모듈이 함께 동작하는 주차 관리 시스템. 카메라 인식 결과를 백엔드로 전달해 주차 상태를 실시간으로 갱신합니다.
 
-**My Role** — Spring Boot 공통 백엔드, JWT 인증·권한 분리, 주민·차량·주차장 API, React 관리자 웹 연동
+**My Role** — Spring Boot 공통 백엔드, JWT 인증·권한 분리, 주민·차량·주차장 API, React 관리자 웹 연동, AWS EC2·RDS 배포
 
 **문제 해결** — 번호판 인식이 입차 이벤트보다 늦게 도착해 차량번호가 `UNKNOWN`으로 남던 문제를, 입차 처리와 번호판 갱신을 분리해 해결
 
-`Java 17` `Spring Boot` `Spring Security` `JPA` `JWT` `MySQL` `AWS RDS` `React` `Vite` `Flutter` `FCM` `FastAPI` `YOLO` `EasyOCR`
+`Java 17` `Spring Boot` `Spring Security` `JPA` `JWT` `MySQL` `AWS EC2` `AWS RDS` `React` `Vite` `Flutter` `FCM` `FastAPI` `YOLO` `EasyOCR`
 
 [![Backend](https://img.shields.io/badge/Backend-Repo-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://github.com/lth0330/graduation)
 [![Frontend](https://img.shields.io/badge/Admin_Web-Repo-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/lth0330/graduation_front)
@@ -118,7 +118,7 @@ Spring Boot REST API를 중심으로 React 관리자 웹, Flutter 앱, Python �
 <br>
 
 ```text
-React Admin Web ──REST──▶ Spring Boot Backend ──── MySQL / AWS RDS
+React Admin Web ──REST──▶ Spring Boot (AWS EC2) ──── MySQL (AWS RDS)
                                   ▲
                                   │ REST
                           Flutter Resident App
@@ -147,6 +147,7 @@ React Admin Web ──REST──▶ Spring Boot Backend ──── MySQL / AWS
 - React 관리자 웹 화면과 백엔드 API 연동
 - Flutter 앱, Python 인식 모듈과 백엔드 사이의 연동 구조 설계
 - DB 테이블 구조 정리(전체 18개 테이블)와 API 명세 관리
+- AWS 배포 — Spring Boot 백엔드를 EC2(Java 17)에, DB를 RDS MySQL로 옮겨 관리자 웹·입주민 앱·Python 인식 모듈이 같은 서버와 DB를 쓰도록 구성. 접속 정보는 코드에 두지 않고 환경변수로 주입, DB는 EC2에서만 접근 가능하게 보안 그룹 설정
 
 **트러블슈팅**
 | 문제 | 해결 |
