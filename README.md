@@ -265,37 +265,6 @@ React (S3 + CloudFront) ──HTTPS──▶ CloudFront 라우팅 ──▶ Spri
 
 <br>
 
-## Study & Mini Projects
-
-| Repository | Description | Language |
-|:---|:---|:---|
-| [Pythonminiproject](https://github.com/lth0330/Pythonminiproject) | 산불 발생 요인 데이터 분석 (팀) · 임상도 병합·피해 분석 담당 | Python |
-| [mini-project2-spring](https://github.com/lth0330/mini-project2-spring) | 화투 기반 로그라이크 카드 게임 백엔드 (팀) · 회원 API 담당 | Java |
-| [mini-project1](https://github.com/lth0330/mini-project1) | 상품 관리 페이지 (관리자 로그인 · 상품 등록/조회/수정) | HTML |
-| [Project](https://github.com/lth0330/Project) | 콘솔 게시판 (MVC 패턴 연습) | Java |
-| [backend](https://github.com/lth0330/backend) | Java 백엔드 기초 학습 | Java |
-| [springweb](https://github.com/lth0330/springweb) | Spring Boot 웹 개발 학습 | Java |
-| [python](https://github.com/lth0330/python) · [python2](https://github.com/lth0330/python2) | Python 기초 및 데이터 분석 실습 | Python |
-| [front](https://github.com/lth0330/front) | HTML / CSS / JavaScript 학습 | HTML |
-
-<br>
-
-## About
-
-| | |
-|:---|:---|
-| **학력** | 성결대학교 정보통신공학과 (2021.03 ~ 2027.02 졸업예정) |
-| **교육** | AI 딥러닝 중심 자바 프론트엔드·백엔드 풀스택 개발 과정 수료 · 성결대학교 (2025.12 ~ 2026.06) |
-| **자격증** | 정보처리기사 필기 합격 (2026.02) |
-| | 컴퓨터활용능력 2급 (2025.08) · MOS 365 Word · PowerPoint Associate (2025.10 · 2025.09) |
-| **수상** | 성결스터디즈 교내 프로젝트 **장려상** (2025.09 ~ 2025.12) — 센서 기반 시스템 설계, 팀 리더 |
-| | 전자회로설계 경진대회 **우수상** (2024년 2학기) — OPAMP 필터 회로 설계, PSpice 시뮬레이션 |
-| **병역** | 육군 병장 만기전역 (2022.01 ~ 2023.07) |
-| **관심 분야** | REST API 설계 · DB 모델링 · 서비스 간 연동 구조 · AWS 배포 |
-| **협업** | Git/GitHub 브랜치 협업 · Jira 이슈 관리 (To Do / In Progress / Done) |
-
-<br>
-
 ## GitHub Stats
 
 <div align="center">
