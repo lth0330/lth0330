@@ -6,9 +6,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:2563EB&height=200&section=header&text=Lee%20Tae%20Hyung&fontSize=46&fontColor=ffffff&fontAlignY=35&desc=Backend%20Developer%20%C2%B7%20Java%20%2F%20Spring%20Boot&descSize=17&descColor=dbeafe&descAlignY=56&animation=fadeIn" width="100%" alt="Lee Tae Hyung" />
 </picture>
 
-**데이터 흐름을 먼저 정리하고, 문제를 구조적으로 분석해 개선하는 백엔드 개발자 이태형입니다.**
-
-Spring Boot REST API를 중심으로 React 관리자 웹, Flutter 앱, Python 객체 인식 모듈이 하나로 연동되는 서비스를 만들고 있습니다.
+**백엔드 개발자 이태형입니다. 보이지 않는 곳이 단단한 서비스를 만듭니다.**
 
 [![Email](https://img.shields.io/badge/Email-xm3003%40naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white)](mailto:xm3003@naver.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lth0330-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lth0330)
